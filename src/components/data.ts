@@ -32,7 +32,7 @@ export const portfolioData = {
       },
       {
         platform: "Portfolio",
-        url: "https://samuel-olagoroye.netlify.app/",
+        url: "/samuel-olagoroye-cv.pdf",
       },
       {
         platform: "GitHub",
@@ -98,7 +98,7 @@ export const portfolioData = {
     {
       company: "PHOS CONSULTS",
       role: "Fullstack Web Developer & Lead IT Manager",
-      duration: "April 2023 – Present (2 years 7 months)",
+      duration: "Apr. 2023 – Present (2+ years)",
       location: "Ibadan, Oyo State, Nigeria",
       details: [
         "Led the design and development of scalable, user-centric frontends using **React.js** and managed dynamic content with **Contentful CMS**.",
@@ -110,7 +110,7 @@ export const portfolioData = {
     {
       company: "Next Switch",
       role: "Frontend Web Developer (SIWES Internship)",
-      duration: "August 2025 – September 2025 (2 months)",
+      duration: "Aug. 2025 – Sept. 2025 (2 months)",
       location: "Ibadan, Oyo State, Nigeria",
       details: [
         "Developed and deployed highly **responsive** and secure user interfaces for fintech applications (MyRiteWallet, Dgnravepay) using **Vue.js** and **Tailwind CSS**.",
@@ -122,7 +122,7 @@ export const portfolioData = {
     {
       company: "SaverTech Limited",
       role: "Software Developer (Internship)",
-      duration: "August 2024 – Present (1 year 3 months)",
+      duration: "Aug. 2024 – Sept. 2024 (2 months)",
       location: "Ibadan, Oyo State, Nigeria",
       details: [
         "Gained hands-on experience in cross-platform mobile application development using **Flutter**.",

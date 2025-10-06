@@ -47,7 +47,7 @@ export default function ExperienceSection({
                     </div>
                     <Badge
                       variant="secondary"
-                      className="bg-slate-100 text-slate-700 text-sm px-4 py-1.5 whitespace-nowrap self-start"
+                      className="text-xs bg-slate-100 text-slate-700 md:text-sm px-4 py-1.5 whitespace-nowrap self-start"
                     >
                       {exp.duration}
                     </Badge>

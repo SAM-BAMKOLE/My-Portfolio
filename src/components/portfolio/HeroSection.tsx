@@ -14,7 +14,7 @@ import abstractFlower from "@/assets/abstract-flower.png";
 
 export default function HeroSection({ data }: { data: IDataType }) {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-lime-200 via-white to-lime-300">
+    <section className="py-20 relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-lime-200 via-white to-lime-300">
       {/* Geometric SVG Background */}
       <div className="absolute inset-0 opacity-[0.06]">
         <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
@@ -124,10 +124,21 @@ export default function HeroSection({ data }: { data: IDataType }) {
                   className="group border-slate-300 hover:border-slate-900 hover:bg-slate-900 hover:text-white transition-all duration-300"
                   asChild
                 >
-                  <a href={link.url} target="_blank" rel="noopener noreferrer">
-                    <Icon className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
-                    {link.platform}
-                  </a>
+                  {link.platform === "Portfolio" ? (
+                    <a href={link.url} target="_blank" download>
+                      <Icon className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
+                      {link.platform}
+                    </a>
+                  ) : (
+                    <a
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Icon className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
+                      {link.platform}
+                    </a>
+                  )}
                 </Button>
               );
             })}

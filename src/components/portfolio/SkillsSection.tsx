@@ -77,7 +77,7 @@ export default function SkillsSection({
                         <Badge
                           key={index}
                           variant="secondary"
-                          className="bg-slate-100 text-slate-700 hover:bg-slate-900 hover:text-white transition-all duration-300 px-3 py-1 text-sm font-normal"
+                          className="text-xs md:text-sm bg-slate-100 text-slate-700 hover:bg-slate-900 hover:text-white transition-all duration-300 px-3 py-1 font-normal"
                         >
                           {skill}
                         </Badge>
